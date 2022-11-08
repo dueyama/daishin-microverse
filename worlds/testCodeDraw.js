@@ -52,7 +52,7 @@ export function init(Constants) {
         },
 		       {
             card: {
-                name: "code deawing",
+                name: "code drawing",
                 layers: ["pointer"],
                 type: "2d",
                 textureType: "canvas",
