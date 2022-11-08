@@ -26,7 +26,7 @@ class CodeDrawPawn {
 export default {
     modules: [
         {
-            name: "DrawingCanvas",
+            name: "CodeDraw",
             actorBehaviors: [CodeDrawActor],
             pawnBehaviors: [CodeDrawPawn],
         }
