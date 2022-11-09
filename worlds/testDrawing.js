@@ -53,16 +53,26 @@ export function init(Constants) {
 		       {
             card: {
                 name: "drawing",
-                layers: ["pointer"],
+                // layers: ["pointer"],
+                // type: "2d",
+                // textureType: "canvas",
+                // behaviorModules: ["DrawingCanvas"],
+                // textureWidth: 1024,
+                // textureHeight: 1024,
+                // translation: [0, 0.5, -5],
+                // fullBright: true,
+                // width: 4,
+                // height: 4
+                translation: [0, 0, -6],
+                rotation: [0, 0, 0, 1],
+                ayers: ["pointer"],
+                name: "/undoall.svg",
+                dataLocation: "3cKyty54MWlRJ2go_AQ2p6cdGVfPPT7Mm3hnVja15tmsCxcXExBZTEwFCg8GEE0WEE0AEQwSFgYXTQoMTBZMGTYXFDMsGSUWLDBSKAoELjkKVlBaGyUnJFtTUUwKDE0AEQwSFgYXTQ4KABEMFQYREAZNDwwAAg8HBhUHBgUCFg8XTFcnLCUoGTctGygUCwJaMjsUPFIZCSZbWiYQDhVOUlsVDwUMDjE5USQvESZMBwIXAkwLIQ8VNw8xOxENKAEzMhU0Ly4SNgokNjBREVUsVAsqN1AUMFITUSsqVQAi",
+                fileName: "./assets/SVG/undoall.svg",
+                modelType: "svg",
+                shadow: true,
+                singleSided: true,
                 type: "2d",
-                textureType: "canvas",
-                behaviorModules: ["DrawingCanvas"],
-                textureWidth: 1024,
-                textureHeight: 1024,
-                translation: [0, 0.5, -5],
-                fullBright: true,
-                width: 4,
-                height: 4
             }
         },
     ];
