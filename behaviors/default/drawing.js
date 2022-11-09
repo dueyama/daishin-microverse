@@ -60,7 +60,7 @@ class DrawingCanvasActor {
             height: 1,
             //layers: ["pointer"],
             //translation: [0, 1, 0],
-            behaviorModules: ["Button"],
+            behaviorModules: ["Button", "Throb"],
             color: 0xcccccc,
             //shadow: true,
             parent: this,
