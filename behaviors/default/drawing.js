@@ -43,16 +43,26 @@ class DrawingCanvasActor {
             this.clearButton.destroy();
         }
         this.clearButton = this.createCard({
+            translation: [0, 0, -6],
+            rotation: [0, 0, 0, 1],
+            ayers: ["pointer"],
+            //name: "/undoall.svg",
+            dataLocation: "3cKyty54MWlRJ2go_AQ2p6cdGVfPPT7Mm3hnVja15tmsCxcXExBZTEwFCg8GEE0WEE0AEQwSFgYXTQoMTBZMGTYXFDMsGSUWLDBSKAoELjkKVlBaGyUnJFtTUUwKDE0AEQwSFgYXTQ4KABEMFQYREAZNDwwAAg8HBhUHBgUCFg8XTFcnLCUoGTctGygUCwJaMjsUPFIZCSZbWiYQDhVOUlsVDwUMDjE5USQvESZMBwIXAkwLIQ8VNw8xOxENKAEzMhU0Ly4SNgokNjBREVUsVAsqN1AUMFITUSsqVQAi",
+            fileName: "./assets/SVG/undoall.svg",
+            modelType: "svg",
+            shadow: true,
+            singleSided: true,
+            type: "2d",
             name:"clearButton",
             type: "object",
-            layers: ["pointer"],
-            translation: [0, 1, 0],
+            //layers: ["pointer"],
+            //translation: [0, 1, 0],
             behaviorModules: ["Button"],
-            color: 0xcccccc,
-            shadow: true,
+            //color: 0xcccccc,
+            //shadow: true,
             parent: this,
-	    publishTo: this.id,
-	    publishMsg: "clear",
+            publishTo: this.id,
+            publishMsg: "clear",
             noSave: true
         });
         console.log("DrawingCanvasActor.setup");
