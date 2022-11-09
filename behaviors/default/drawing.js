@@ -54,7 +54,7 @@ class DrawingCanvasActor {
             singleSided: true,
             type: "2d",
             name:"clearButton",
-            type: "object",
+            //type: "object",
             width: 1,
             height: 1,
             //layers: ["pointer"],
