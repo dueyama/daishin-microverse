@@ -48,7 +48,7 @@ class DrawingCanvasActor {
             ayers: ["pointer"],
             //name: "/undoall.svg",
             dataLocation: "3cKyty54MWlRJ2go_AQ2p6cdGVfPPT7Mm3hnVja15tmsCxcXExBZTEwFCg8GEE0WEE0AEQwSFgYXTQoMTBZMGTYXFDMsGSUWLDBSKAoELjkKVlBaGyUnJFtTUUwKDE0AEQwSFgYXTQ4KABEMFQYREAZNDwwAAg8HBhUHBgUCFg8XTFcnLCUoGTctGygUCwJaMjsUPFIZCSZbWiYQDhVOUlsVDwUMDjE5USQvESZMBwIXAkwLIQ8VNw8xOxENKAEzMhU0Ly4SNgokNjBREVUsVAsqN1AUMFITUSsqVQAi",
-            fileName: "./assets/SVG/undoall.svg",
+            fileName: "/assets/SVG/undoall.svg",
             modelType: "svg",
             shadow: true,
             singleSided: true,
@@ -67,7 +67,7 @@ class DrawingCanvasActor {
             publishMsg: "clear",
             noSave: true
         });
-        console.log("DrawingCanvasActor.setup");
+        console.log("######DrawingCanvasActor.setup");
     }
 
     setData(data) {
