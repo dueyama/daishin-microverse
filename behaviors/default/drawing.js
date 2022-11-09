@@ -43,7 +43,7 @@ class DrawingCanvasActor {
             this.clearButton.destroy();
         }
         this.clearButton = this.createCard({
-            translation: [0, 0, -6],
+            translation: [0, 1, 0],
             rotation: [0, 0, 0, 1],
             ayers: ["pointer"],
             //name: "/undoall.svg",
@@ -55,6 +55,8 @@ class DrawingCanvasActor {
             type: "2d",
             name:"clearButton",
             type: "object",
+            width: 1,
+            height: 1,
             //layers: ["pointer"],
             //translation: [0, 1, 0],
             behaviorModules: ["Button"],
