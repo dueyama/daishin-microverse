@@ -45,6 +45,7 @@ class DrawingCanvasActor {
         this.clearButton = this.createCard({
             translation: [0, 1, 0],
             rotation: [0, 0, 0, 1],
+            scale: [0.5, 0.5, 0.5],
             ayers: ["pointer"],
             //name: "/undoall.svg",
             dataLocation: "3cKyty54MWlRJ2go_AQ2p6cdGVfPPT7Mm3hnVja15tmsCxcXExBZTEwFCg8GEE0WEE0AEQwSFgYXTQoMTBZMGTYXFDMsGSUWLDBSKAoELjkKVlBaGyUnJFtTUUwKDE0AEQwSFgYXTQ4KABEMFQYREAZNDwwAAg8HBhUHBgUCFg8XTFcnLCUoGTctGygUCwJaMjsUPFIZCSZbWiYQDhVOUlsVDwUMDjE5USQvESZMBwIXAkwLIQ8VNw8xOxENKAEzMhU0Ly4SNgokNjBREVUsVAsqN1AUMFITUSsqVQAi",
@@ -60,7 +61,7 @@ class DrawingCanvasActor {
             //layers: ["pointer"],
             //translation: [0, 1, 0],
             behaviorModules: ["Button"],
-            //color: 0xcccccc,
+            color: 0xcccccc,
             //shadow: true,
             parent: this,
             publishTo: this.id,
